@@ -14,13 +14,13 @@
         <link rel="stylesheet" href="{{ asset('/css/styles.css')}}">
         
         <script src="{{ asset('js/scripts.js') }}"></script>
-        <title>@yield('title')Laravel</title>
+        <title>@yield('title')</title>
 
     </head>
     <body>  
         <header>
            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="collapse navbar-collapse id="#navbar">
+                <div class="collapse navbar-collapse" id="navbar">
                     <a href="/" class="navbar-brand"></a>
                     <img src="{{asset('images/hdcevents_logo.svg')}}">
                 </div>
@@ -29,7 +29,7 @@
                         <a href="/" class="nav-link">Eventos</a>
                     </li>
                     <li class="nav-item">
-                        <a href="/" class="nav-link">Criar eventos</a>
+                        <a href="/events/create" class="nav-link">Criar eventos</a>
                     </li>
                     <li class="nav-item">
                         <a href="/" class="nav-link">Entrar</a>
@@ -44,5 +44,10 @@
         <footer>
             <p>HDC Events &copy; 2020</p>
         </footer>
+        {{-- Scripts responsáveis pela utilização de icons utilizados no projeto --}}
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     </body>
 </html>
+
+{{-- Parei neste video: https://www.youtube.com/watch?v=_sayRBbEHN8&list=PLnDvRpP8BnewYKI1n2chQrrR4EYiJKbUG&index=10 --}}
