@@ -26,10 +26,10 @@
                 </div>
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a href="/" class="nav-link">Eventos</a>
+                        <a href="{{route('home')}}" class="nav-link">Eventos</a>
                     </li>
                     <li class="nav-item">
-                        <a href="/events/create" class="nav-link">Criar eventos</a>
+                        <a href="{{route('criar')}}" class="nav-link">Criar eventos</a>
                     </li>
                     <li class="nav-item">
                         <a href="/" class="nav-link">Entrar</a>
