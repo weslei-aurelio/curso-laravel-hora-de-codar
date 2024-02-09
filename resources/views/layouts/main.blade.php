@@ -42,7 +42,7 @@
         </header>
         @yield('content')
         <footer>
-            <p>HDC Events &copy; 2020</p>
+            <p>Weslei A. | todos os direitos reservados | &copy; 2024</p>
         </footer>
         {{-- Scripts responsáveis pela utilização de icons utilizados no projeto --}}
         <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
@@ -50,4 +50,4 @@
     </body>
 </html>
 
-{{-- Parei neste video: https://www.youtube.com/watch?v=_sayRBbEHN8&list=PLnDvRpP8BnewYKI1n2chQrrR4EYiJKbUG&index=10 --}}
+{{-- Parei neste video: https://www.youtube.com/watch?v=z1ISAp7sYwo&list=PLnDvRpP8BnewYKI1n2chQrrR4EYiJKbUG&index=15 --}}
