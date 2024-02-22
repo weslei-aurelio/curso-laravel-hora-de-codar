@@ -19,4 +19,5 @@ use App\Http\Controllers\ProductController;
 
 Route::get('/', [EventController::class, 'index'])->name('home');
 Route::get('/events/create', [EventController::class, 'create'])->name('criar');
+Route::get('events/{id}', [EventController::class, 'show']);
 Route::post('/events', [EventController::class, 'store']);
